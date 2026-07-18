@@ -1,0 +1,1 @@
+# Minane-Wash-Auto
