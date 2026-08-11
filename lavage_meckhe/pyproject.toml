@@ -1,0 +1,25 @@
+[project]
+name = "lavage_meckhe"
+version = "1.0.0"
+description = "Application de gestion pour station de lavage automobile - Méckhé, Sénégal"
+authors = [{ name = "HELVEOS" }]
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.86.0",
+    "openpyxl>=3.1",
+    "reportlab>=4.0",
+    "qrcode>=7.4",
+    "pillow>=10.0",
+    "svglib>=1.5",
+]
+
+[tool.flet]
+# Métadonnées de l'application packagée
+org = "sn.lavage.meckhe"
+product = "Lavage Méckhé"
+company = "HELVEOS"
+copyright = "© 2026 Lavage Méckhé"
+
+[tool.flet.app]
+path = "."
+module = "main"

@@ -1,0 +1,2 @@
+C:\Users\mouhamadine\Downloads\MINAN_WASH_V_140726\MINAN_WASH_V_140726\lavage_meckhe\main.py:307: DeprecationWarning: app() is deprecated since version 0.80.0. Use run() instead.
+  ft.app(target=main)
